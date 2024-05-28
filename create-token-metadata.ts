@@ -26,10 +26,10 @@ const TOKEN_METADATA_PROGRAM_ID = new PublicKey(
 );
 
 // Subtitute in your token mint account
-const tokenMintAccount = new PublicKey("F3zCsJTL2QkTeVSr6cnCXfsYf1tbQk9cwLuYgpTGL2J2");
+const tokenMintAccount = new PublicKey("44TJf2k7px9vjyHZGmUvTw8w8FwYcwPXxxxLLLoWiHvH");
 
 const metadataData = {
-  name: "Solana me  mishal ka token",
+  name: "Solana Training Token",
   symbol: "TRAINING",
   // Arweave / IPFS / Pinata etc link using metaplex standard for off-chain data
   uri: "https://arweave.net/1234",
